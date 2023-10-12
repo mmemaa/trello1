@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registracija</title>
+    <link rel = "stylesheet" type = "text/css" href = "register_style.css" />
+</head>
+<body>
+
+<div class="register-center">
+
+    <a href="../homepage/index.php">
+    </a>
+    <hr>
+    <form method="post" action="register.php">
+        <h1>Ustvari racun: </h1>
+
+        <label>Ime: </label>
+        <input  type="text" id="u_ime_input" name="ime" required>
+        <label>Priimek: </label>
+        <input  type="text" id="u_priimek_input" name="priimek" required>
+        <label> Uporabniško ime: </label>
+        <input  type="text" id="u_upime_input" name="up_ime" required>
+        <label>Email: </label>
+        <input type="email" id="u_email" name="email" required>
+        <label>Geslo: </label>
+        <input type="password" id="u_password" name="geslo" placeholder="Vsaj 8 znakov" required>
+        <input class="submit" type="submit" value="Ustvari svoj Trello racun">
+        <p>Ali ze imas racun?</p>
+        <a href="login.html"> Prijavi se </a>
+    </form>
+
+</div>
+
+</body>
+</html>

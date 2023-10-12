@@ -1,0 +1,22 @@
+.bar{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    gap: 5px;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+    margin-left: 70px;
+}
+
+.iskanje{
+    margin-left: 70px;
+}
+
+.gumbi{
+    margin-left:650px;
+}
